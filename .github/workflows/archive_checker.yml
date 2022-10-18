@@ -23,4 +23,4 @@ jobs:
         
     - name: run_valid
       run: |
-        python3 ./validateArchive.py -f . --skip ".*__INTERNAL__.*"
+        python3 .github/workflows/validateArchive.py -f . --skip ".*__INTERNAL__.*"
